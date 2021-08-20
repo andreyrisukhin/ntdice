@@ -15,6 +15,16 @@ You can install the released version of ntdice from [CRAN](https://CRAN.R-projec
 ``` r
 install.packages("ntdice")
 ```
+To view vignettes, run the following code:
+
+``` r
+devtools::install_github("bryandmartin/ntdice", build_vignette = TRUE, build_opts = c())
+library(ntdice)
+# Use this to view the vignette in the ntdice HTML help
+help(package = "ntdice", help_type = "html")
+# Use this to view the vignette as an isolated HTML file
+utils::browseVignettes(package = "ntdice")
+```
 
 ## Example
 
