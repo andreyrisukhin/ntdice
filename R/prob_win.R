@@ -10,7 +10,7 @@
 #'   the second die.
 #'
 #' @examples
-#' grime_dice()
+#' prob_win(c(1, 2, 3, 4, 5, 6), c(1, 2, 3, 4, 5, 6))
 #'
 #' @export
 prob_win <- function(dice_a, dice_b) {
