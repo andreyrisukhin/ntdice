@@ -1,5 +1,5 @@
 Package: ntdice
-Title: Provides Functions To Expore, Simulate, Visualize, And Generate Non-Transitive Dice.
+Title: Simulate, Visualize, And Generate Non-Transitive Dice
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Andrey",
