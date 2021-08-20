@@ -46,8 +46,11 @@ get_win_matrix <- function(dice_set, dice_ids) {
       # Populate only triangular entries, because others are 0 or are 1 - entry
       if (i < j) {
         # Interpretation: prob dice i beats dice j
-        wm[i][j] <- prob_win(dice_set[i], dice_set[j])
-        wm[j][i] <- 1 - wm[i][j]
+
+# Debug
+type_i <- typeof(dice_set[[i]])
+        wm[i,j] <- prob_win(dice_set[[i]], dice_set[[j]])
+        wm[j,i] <- 1 - wm[i,j]
       }
 
     }
