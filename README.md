@@ -18,7 +18,7 @@ install.packages("ntdice")
 To view vignettes, run the following code:
 
 ``` r
-devtools::install_github("bryandmartin/ntdice", build_vignette = TRUE, build_opts = c())
+devtools::install_github("andreyrisukhin/ntdice", build_vignette = TRUE, build_opts = c())
 library(ntdice)
 # Use this to view the vignette in the ntdice HTML help
 help(package = "ntdice", help_type = "html")
