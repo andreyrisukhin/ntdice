@@ -6,7 +6,16 @@
 [![codecov](https://codecov.io/gh/andreyrisukhin/ntdice/branch/master/graph/badge.svg?token=A8SJV4ZEJW)](https://codecov.io/gh/andreyrisukhin/ntdice)
 <!-- badges: end -->
 
-The goal of ntdice is to ...
+The goal of ntdice is to simulate, visualize, and generate sets of non-transitive dice. 
+
+## Grime Dice
+
+One impressive set of non-transitive dice was discovered by Dr. James Grime. This set has several cycles:
+- Alphabetical: blue, magenta, olive, red, yellow
+- Length (increasing): red, blue, olive, yellow, magenta
+- Reverse Length (decreasing): magenta, yellow, olive, blue, red
+
+Each of the dice in this set has six faces.
 
 ## Installation
 
