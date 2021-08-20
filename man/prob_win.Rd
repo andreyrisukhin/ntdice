@@ -6,6 +6,13 @@
 \usage{
 prob_win(dice_a, dice_b)
 }
+\arguments{
+\item{dice_a}{The first dice, which we calculate the probability of winning
+against \code{dice_b}.}
+
+\item{dice_b}{The second dice, which we use to calculate the probability that
+\code{dice_a} beats.}
+}
 \value{
 A single numeric decimal, representing probability of first die beating
 the second die.

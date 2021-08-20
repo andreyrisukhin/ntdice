@@ -4,7 +4,10 @@
 #'   the probabilities of games between the dice. The interpretation of entry (i,j)
 #'   is the probability that dice i beats dice j.
 #'
-#' @keywords probability
+#' @param dice_set The set of dice to be calculated for (a list of numeric vectors).
+#' @param dice_ids The identifiers for each dice, labels for convenience.
+#'
+#' @keywords probability win matrix
 #'
 #' @return A single numeric decimal, representing probability of first die beating
 #'   the second die.

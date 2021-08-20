@@ -4,6 +4,11 @@
 #'   than a second dice. This function works for any two dice, even of different
 #'   lengths. The probability calculated is the first dice beating the second.
 #'
+#' @param dice_a The first dice, which we calculate the probability of winning
+#'   against \code{dice_b}.
+#' @param dice_b The second dice, which we use to calculate the probability that
+#'   \code{dice_a} beats.
+#'
 #' @keywords probability
 #'
 #' @return A single numeric decimal, representing probability of first die beating

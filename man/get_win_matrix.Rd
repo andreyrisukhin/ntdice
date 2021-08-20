@@ -6,6 +6,11 @@
 \usage{
 get_win_matrix(dice_set, dice_ids)
 }
+\arguments{
+\item{dice_set}{The set of dice to be calculated for (a list of numeric vectors).}
+
+\item{dice_ids}{The identifiers for each dice, labels for convenience.}
+}
 \value{
 A single numeric decimal, representing probability of first die beating
 the second die.
@@ -19,4 +24,6 @@ is the probability that dice i beats dice j.
 get_win_matrix(list(c(1, 2, 3, 4, 5, 6), c(1, 2, 3, 4, 5, 6)), c("dice_a", "dice_b"))
 
 }
+\keyword{matrix}
 \keyword{probability}
+\keyword{win}
