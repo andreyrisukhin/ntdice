@@ -1,0 +1,14 @@
+Package: ntdice
+Title: Provides Functions To Expore, Simulate, Visualize, And Generate Non-Transitive Dice.
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Andrey",
+           family = "Risukhin",
+           role = c("aut", "cre"),
+           email = "risuka@cs.uw.edu")
+Description: This package provides several functions for exploring nontransitive dice. A person unfamiliar with nontransitive dice can visualize, simulate, and discover new sets of nontransitive dice with this package.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
