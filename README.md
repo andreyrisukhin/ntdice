@@ -35,12 +35,14 @@ help(package = "ntdice", help_type = "html")
 utils::browseVignettes(package = "ntdice")
 ```
 
-## Example
+## Coming Soon
+Features coming soon include:
+- simulate_roll(dice_a, dice_b, trials)
+- Plotting simulation results, visualizations
+- Intelligent dice selection
+- Generating new sets of Non-Transitive Dice
+- More famous sets of Non-Transitive Dice (efron dice)
+- More uses for get_win_matrix()
 
-This is a basic example which shows you how to solve a common problem:
 
-``` r
-library(ntdice)
-## basic example code
-```
-
+- 
