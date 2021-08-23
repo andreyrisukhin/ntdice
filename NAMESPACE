@@ -2,4 +2,5 @@
 
 export(get_win_matrix)
 export(grime_dice)
+export(grime_dice_names)
 export(prob_win)
