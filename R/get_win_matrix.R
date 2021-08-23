@@ -22,11 +22,6 @@ get_win_matrix <- function(dice_set, dice_ids) {
   if (!(is.list(dice_set) & is.vector(dice_set[1]))) {
     stop("dice_set must be a list of vectors!")
   }
-  # Check that dice_ids is a vector
-  if (!is.vector(dice_ids)) {
-    stop("dice_ids must be a vector!")
-    # By definition, c() is not a vector, past this point: dice_ids is nonempty
-  }
   # Check that length of dice set == dice_ids
   if (length(dice_set) != length(dice_ids)) {
     stop("lengths of dice_set and dice_ids must match!")
@@ -35,7 +30,7 @@ get_win_matrix <- function(dice_set, dice_ids) {
   if (!(length(dice_set) >= 2)) {
     stop("length of dice_set must be two or greater!")
   }
-
+  # dice_ids will work beyond this point
 
   # Store count of dice in set
   dice_count <- length(dice_set)

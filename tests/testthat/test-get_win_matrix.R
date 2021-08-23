@@ -7,6 +7,7 @@ dice_ids_a <- c("Dice One")
 dice_ids_b <- c("Dice One", "Dice Two")
 dice_ids_c <- "should be vector"
 dice_ids_d <- c()
+dice_ids_e <- seq(1,2,1)
 
 test_that("lengths of dice_set, dice_ids must match", {
   expect_error(get_win_matrix(dice_set_a, dice_ids_a))
@@ -14,10 +15,6 @@ test_that("lengths of dice_set, dice_ids must match", {
 
 test_that("dice_set should be a list of vectors", {
   expect_error(get_win_matrix(dice_set_d, dice_ids_a))
-})
-
-test_that("dice_ids should be vector", {
-  expect_error(get_win_matrix(dice_set_c, dice_ids_c))
 })
 
 test_that("dice_set should represent at least two dice", {
