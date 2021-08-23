@@ -5,6 +5,7 @@
 #'   is the probability that dice i beats dice j.
 #'
 #' @param dice_set The set of dice to be calculated for (a list of numeric vectors).
+#'   There must be at least two dice to compare.
 #' @param dice_ids The identifiers for each dice, labels for convenience.
 #'
 #' @keywords probability win matrix
@@ -29,6 +30,10 @@ get_win_matrix <- function(dice_set, dice_ids) {
   # Check that length of dice set == dice_ids
   if (length(dice_set) != length(dice_ids)) {
     stop("lengths of dice_set and dice_ids must match!")
+  }
+  # Check that there are at least two dice to compare
+  if (!(length(dice_set) >= 2)) {
+    stop("length of dice_set must be two or greater!")
   }
 
 

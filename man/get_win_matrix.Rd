@@ -7,7 +7,8 @@
 get_win_matrix(dice_set, dice_ids)
 }
 \arguments{
-\item{dice_set}{The set of dice to be calculated for (a list of numeric vectors).}
+\item{dice_set}{The set of dice to be calculated for (a list of numeric vectors).
+There must be at least two dice to compare.}
 
 \item{dice_ids}{The identifiers for each dice, labels for convenience.}
 }
