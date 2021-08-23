@@ -24,10 +24,7 @@ get_win_matrix <- function(dice_set, dice_ids) {
   # Check that dice_ids is a vector
   if (!is.vector(dice_ids)) {
     stop("dice_ids must be a vector!")
-  }
-  # Check that nonempty vector passed in (also checks length of dice_set)
-  if (length(dice_ids) == 0) {
-    stop("function only sensible with nonzero lengths!")
+    # By definition, c() is not a vector, past this point: dice_ids is nonempty
   }
   # Check that length of dice set == dice_ids
   if (length(dice_set) != length(dice_ids)) {

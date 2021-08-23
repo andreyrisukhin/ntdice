@@ -19,10 +19,6 @@ test_that("dice_ids should be vector", {
   expect_error(get_win_matrix(dice_set_c, dice_ids_b))
 })
 
-test_that("dice_ids should be a nonempty vector", {
-  expect_error(get_win_matrix(dice_set_a, dice_ids_d))
-})
-
 test_that("dice_set should be a list of vectors", {
   expect_error(get_win_matrix(dice_set_b, dice_ids_a))
 })
