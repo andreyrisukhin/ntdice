@@ -18,3 +18,21 @@ knitr::opts_chunk$set(
 ```{r setup}
 library(ntdice)
 ```
+
+# Non-Transitive Dice
+
+This is a package for experimenting with non-transitive dice.
+
+Below is an example of how to get the matrix of probabilities, representing each pairing of dice.
+
+```{r}
+# Get the grime dice set
+dice_g <- grime_dice()
+
+# Store Grime dice names
+ids_g <- c("Red", "Blue", "Olive", "Yellow", "Magenta")
+
+# Get the matrix of winning probabilities
+  # Recall interpretation: each row's probability of beating a column
+wins_g <- get_win_matrix(dice_g, ids_g)
+```
