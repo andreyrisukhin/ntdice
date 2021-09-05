@@ -17,6 +17,8 @@ One impressive set of non-transitive dice was discovered by Dr. James Grime. Thi
 
 Each of the dice in this set has six faces.
 
+We can simulate rolls between two dice using the `simulate_roll(dice_a, dice_b, trials)` function.
+
 ## Installation
 
 You can install the released version of ntdice from [CRAN](https://CRAN.R-project.org) with:
@@ -37,7 +39,6 @@ utils::browseVignettes(package = "ntdice")
 
 ## Coming Soon
 Features coming soon include:
-- simulate_roll(dice_a, dice_b, trials)
 - Plotting simulation results, visualizations
 - Intelligent dice selection
 - Generating new sets of Non-Transitive Dice
