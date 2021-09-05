@@ -1,15 +1,15 @@
 #' Grime dice generator
-#' 
-#' Generates Dr. James Grime's set of nontransitive dice. It takes no parameters. 
+#'
+#' Generates Dr. James Grime's set of nontransitive dice. It takes no parameters.
 #'   It returns a list of five vectors, representing the Grime dice.
-#'   
+#'
 #' @keywords generate
-#' 
+#'
 #' @return List of five numeric vectors, each representing one of the Grime dice.
-#' 
-#' @examples 
+#'
+#' @examples
 #' grime_dice()
-#' 
+#'
 #' @export
 grime_dice <- function() {
   red <- c(4, 4, 4, 4, 4, 9)
