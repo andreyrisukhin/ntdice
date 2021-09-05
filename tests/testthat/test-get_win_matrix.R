@@ -18,7 +18,7 @@ test_that("dice_set should be a list of vectors", {
 })
 
 test_that("dice_set should represent at least two dice", {
-  expect_error(get_win_matrix(dice_set_b, dice_ids_a))
+  expect_error(get_win_matrix(dice_set_c, dice_ids_a))
 })
 
 test_that("get_win_matrix should return a dataframe coded as a list", {
