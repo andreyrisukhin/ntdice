@@ -37,6 +37,10 @@ help(package = "ntdice", help_type = "html")
 utils::browseVignettes(package = "ntdice")
 ```
 
+## Examples
+
+Examples of functionality coming soon!
+
 ## Coming Soon
 Features coming soon include:
 - Plotting simulation results, visualizations
